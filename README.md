@@ -5,32 +5,12 @@ My complete coding and interview preparation journey, including LeetCode, CSES, 
 
 <div align="center">
 
-## LeetCode Stats
+<img src="https://leetcard.jacoblin.cool/Deepak_Vikin?theme=dark&font=Karma&ext=heatmap" />
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Karma&ext=heatmap)
+<br><br>
+
+<a href="https://leetcode.com/u/Deepak_Vikin/">
+  <img src="https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode" />
+</a>
 
 </div>
-
----
-
-## Problem Distribution
-
-![LeetCode Stats](https://leetcode.card.workers.dev/YOUR_LEETCODE_USERNAME?theme=dark&font=baloo&extension=null)
-
----
-
-## Activity Heatmap
-
-![LeetCode Heatmap](https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Karma&ext=heatmap)
-
----
-
-## Languages Used
-
-![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=YOUR_LEETCODE_USERNAME&theme=Dark)
-
----
-
-## Profile
-
-[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/YOUR_LEETCODE_USERNAME/)

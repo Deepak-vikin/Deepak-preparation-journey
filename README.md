@@ -1,7 +1,7 @@
 # Deepak-preparation-journey
 My complete coding and interview preparation journey, including LeetCode, CSES, DSA, notes, and learning progress.
 
-# 🚀 Deepak's LeetCode Journey
+# LeetCode Progress
 
 <div align="center">
 

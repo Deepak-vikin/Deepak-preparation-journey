@@ -20,9 +20,6 @@ It can be shown that there is no way to achieve 7 consecutive black blocks in le
 Therefore, we return 3.
 
 """
-from pandas.core.internals import blocks
-
-
 class Solution:
     def minimumRecolors(self, blocks: str, k: int) -> int:
         c=0

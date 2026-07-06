@@ -26,5 +26,5 @@ class Solution:
         return dp[m-1][n-1]
 
 obj=Solution()
-res=obj.uniquePaths(3,3)
+res=obj.uniquePaths(3,4)
 print(res)

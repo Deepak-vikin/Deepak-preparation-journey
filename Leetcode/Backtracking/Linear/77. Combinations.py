@@ -31,4 +31,4 @@ class Solution:
         return res
 obj=Solution()
 res=obj.combine(4,2)
-
+print(res)

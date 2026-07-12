@@ -8,6 +8,7 @@ Example 1:
 Input: digits = "23"
 Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
 
+from typing import List
 """
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:

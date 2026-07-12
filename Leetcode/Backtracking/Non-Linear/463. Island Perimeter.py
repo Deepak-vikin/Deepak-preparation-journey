@@ -13,6 +13,7 @@ Example 1:
 Input: grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
 Output: 16
 Explanation: The perimeter is the 16 yellow stripes in the image above.
+from typing import List
 """
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:

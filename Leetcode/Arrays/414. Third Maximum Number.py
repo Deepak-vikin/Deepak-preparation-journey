@@ -12,6 +12,7 @@ The first distinct maximum is 3.
 The second distinct maximum is 2.
 The third distinct maximum is 1.
 
+from typing import List
 """
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:

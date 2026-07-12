@@ -16,6 +16,7 @@ Explanation:
 From the center of the image with position (sr, sc) = (1, 1) (i.e., the red pixel), all pixels connected by a path of the same color as the starting pixel (i.e., the blue pixels) are colored with the new color.
 
 Note the bottom corner is not colored 2, because it is not horizontally or vertically connected to the starting pixel.
+from typing import List
 """
 
 

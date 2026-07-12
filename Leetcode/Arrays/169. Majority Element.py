@@ -9,6 +9,7 @@ Example 1:
 
 Input: nums = [3,2,3]
 Output: 3
+from typing import List
 """
 
 

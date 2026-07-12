@@ -12,6 +12,7 @@ Example 1:
 Input: nums = [3,4,5,1,2]
 Output: true
 Explanation: [1,2,3,4,5] is the original sorted array.
+from typing import List
 """
 
 class Solution:

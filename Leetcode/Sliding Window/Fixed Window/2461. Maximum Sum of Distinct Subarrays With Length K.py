@@ -21,6 +21,7 @@ Explanation: The subarrays of nums with length 3 are:
 - [9,9,9] which does not meet the requirements because the element 9 is repeated.
 We return 15 because it is the maximum subarray sum of all the subarrays that meet the conditions
 
+from typing import List
 """
 class Solution:
     def maximumSubarraySum(self, nums: List[int], k: int) -> int:

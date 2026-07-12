@@ -14,6 +14,7 @@ Example 2:
 
 Input: nums = [1,2,3]
 Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+from typing import List
 """
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:

@@ -13,6 +13,7 @@ Explanation: You have 3 children and 2 cookies. The greed factors of 3 children 
 And even though you have 2 cookies, since their size is both 1, you could only make the child whose greed factor is 1 content.
 You need to output 1.
 
+from typing import List
 """
 class Solution:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:

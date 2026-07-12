@@ -18,6 +18,7 @@ Explanation: there are four ways to make up the amount:
 5=2+2+1
 5=2+1+1+1
 5=1+1+1+1+1
+from typing import List
 """
 
 class Solution:

@@ -16,6 +16,7 @@ Input: fruits = [1,2,1]
 Output: 3
 Explanation: We can pick from all 3 trees.
 
+from typing import List
 """
 
 class Solution:

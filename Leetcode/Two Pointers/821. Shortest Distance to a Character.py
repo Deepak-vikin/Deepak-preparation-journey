@@ -15,6 +15,7 @@ The closest occurrence of 'e' for index 1 is at index 3, so the distance is abs(
 For index 4, there is a tie between the 'e' at index 3 and the 'e' at index 5, but the distance is still the same: abs(4 - 3) == abs(4 - 5) = 1.
 The closest occurrence of 'e' for index 8 is at index 6, so the distance is abs(8 - 6) = 2.
 
+from typing import List
 """
 class Solution:
     def shortestToChar(self, s: str, c: str) -> List[int]:

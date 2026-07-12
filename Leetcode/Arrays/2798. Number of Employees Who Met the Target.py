@@ -20,6 +20,7 @@ Explanation: The company wants each employee to work for at least 2 hours.
 - Employee 3 worked for 3 hours and met the target.
 - Employee 4 worked for 4 hours and met the target.
 There are 3 employees who met the target.
+from typing import List
 """
 class Solution:
     def numberOfEmployeesWhoMetTarget(self, hours: List[int], target: int) -> int:

@@ -19,6 +19,7 @@ Explanation:
  [5,8,7],
  [0,9,0]]
 Path to get the maximum gold, 9 -> 8 -> 7.
+from typing import List
 """
 class Solution:
     def getMaximumGold(self, grid: List[List[int]]) -> int:

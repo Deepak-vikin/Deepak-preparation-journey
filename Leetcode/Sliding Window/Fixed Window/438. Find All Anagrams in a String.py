@@ -10,6 +10,7 @@ Output: [0,6]
 Explanation:
 The substring with start index = 0 is "cba", which is an anagram of "abc".
 The substring with start index = 6 is "bac", which is an anagram of "abc".
+from typing import List
 """
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:

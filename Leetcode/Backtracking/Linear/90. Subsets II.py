@@ -13,6 +13,7 @@ Example 2:
 
 Input: nums = [0]
 Output: [[],[0]]
+from typing import List
 """
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:

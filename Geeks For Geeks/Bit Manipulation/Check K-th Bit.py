@@ -24,3 +24,17 @@ class Solution:
 obj=Solution()
 print(obj.checkKthBit(4, 3))
 print(obj.checkKthBit(4, 2))
+
+
+"""
+1<<k:
+    let k be 2
+    1<<2 becomes 100
+    let n be 13:
+        13 in binary is 1101
+    n % (1<<k) is 1101
+               &  0100
+               --------
+                  0100
+    This is greater than 1 so kth bit is a set bit.
+"""

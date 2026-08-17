@@ -1,16 +1,10 @@
 """
 You have intercepted a secret message encoded as a string of numbers. The message is decoded via the following mapping:
-
 "1" -> 'A'
-
 "2" -> 'B'
-
 ...
-
 "25" -> 'Y'
-
 "26" -> 'Z'
-
 However, while decoding the message, you realize that there are many different ways you can decode the message because some codes are contained in other codes ("2" and "5" vs "25").
 
 For example, "11106" can be decoded into:

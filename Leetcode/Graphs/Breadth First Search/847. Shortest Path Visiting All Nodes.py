@@ -11,9 +11,6 @@ Example 1:
 Input: graph = [[1,2,3],[0],[0],[0]]
 Output: 4
 Explanation: One possible path is [1,0,2,0,3]"""
-from jedi.third_party.typeshed.stubs.tensorflow.tensorflow.summary import graph
-
-
 class Solution:
     def shortestPathLength(self, graph: List[List[int]]) -> int:
         n=len(graph)

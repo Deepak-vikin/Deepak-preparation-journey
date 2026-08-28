@@ -14,11 +14,7 @@ For some 1 <= k <= 6, there is exactly one lowercase and one uppercase letter of
 
 Return the lowest number of moves to acquire all keys. If it is impossible, return -1.
 
-
-
 Example 1:
-
-
 Input: grid = ["@.a..","###.#","b.A.B"]
 Output: 8
 Explanation: Note that the goal is to obtain all the keys not to open all the locks.

@@ -31,7 +31,8 @@ class Solution:
         res=[]
         while queue:
             ls=[]
-            for _ in range(len(queue)):
+            size=len(queue)
+            for _ in range(size):
                 curr=queue.popleft()
                 ls.append(curr.val)
                 if curr.left:

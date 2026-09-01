@@ -75,5 +75,5 @@ class Solution:
                         queue.append((nx,ny,new_energy,new_mask,moves+1))
         return -1
 obj=Solution()
-res=obj.minMoves(["S.", "XL"])
+res=obj.minMoves(["LS", "RL"])
 print(res)

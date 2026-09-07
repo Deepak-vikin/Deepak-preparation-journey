@@ -42,6 +42,7 @@ class Solution:
         ref=image[sr][sc]
         dfs(sr,sc)
         return image
+
 obj=Solution()
 res=obj.floodFill([[1,1,1],[1,1,0],[1,0,1]],2,2)
 print(res)

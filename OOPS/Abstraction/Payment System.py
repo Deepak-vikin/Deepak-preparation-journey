@@ -5,7 +5,7 @@ class Payment(ABC):
     def pay(self,amount):
         pass
 
-class UPI(Payment):
+class UPI():
     def pay(self,amount):
         print(f"Payed {amount} using UPI")
 

@@ -41,6 +41,7 @@ class Solution:
                     graph[nx][ny]=colour
                     queue.append((nx,ny,colour))
         return graph
+
 obj=Solution()
 res=obj.colorGrid(n=3,m=3,sources=[[1,1,1],[1,1,1],[1,1,1]])
 print(res)

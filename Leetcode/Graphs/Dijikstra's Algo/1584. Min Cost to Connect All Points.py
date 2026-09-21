@@ -1,0 +1,41 @@
+"""
+You are given an array points representing integer coordinates of some points on a 2D-plane, where points[i] = [xi, yi].
+
+The cost of connecting two points [xi, yi] and [xj, yj] is the manhattan distance between them: |xi - xj| + |yi - yj|, where |val| denotes the absolute value of val.
+
+Return the minimum cost to make all points connected. All points are connected if there is exactly one simple path between any two points.
+
+
+
+Example 1:
+
+
+Input: points = [[0,0],[2,2],[3,10],[5,2],[7,0]]
+Output: 20
+Explanation:
+
+We can connect the points as shown above to get the minimum cost of 20.
+Notice that there is a unique path between every pair of points.
+"""
+class Solution:
+    def minCostConnectPoints(self, points: list[list[int]]) -> int:
+        heap=[(0,0)]
+        n=len(points)
+        cost=0
+        visited=set([])
+        while heap:
+            weight,node=heappop(heap)
+            if node in visited:
+                continue
+            visited.add(node)
+            cost+=weight
+            x1,y1=points[node]
+            for i in range(n):
+                if i not in visited:
+                    x2,y2=points[i]
+                    dist=abs(x1-x2)+abs(y1-y2)
+                    heappush(heap,(dist,i))
+        return cost
+obj=Solution()
+res=obj.minCostConnectPoints([[0,0],[2,2],[3,10],[5,2],[7,0]])
+print(res)

@@ -17,19 +17,17 @@ Total Cost = 10 + 10 = 20
 class Solution:
     def minCost(self, height: list[int]) -> int:
         n=len(height)
-        dp=[-1]*(n+1)
-        def func(num):
-            if num==0:
-                return 0
-            if dp[num]!=-1:
-                return dp[num]
-            left=func(num-1)+abs(height[num]-height[num-1])
-            right=float("inf")
-            if num>1:
-                right=func(num-2)+abs(height[num]-height[num-2])
-            dp[num]=min(left,right)
-            return dp[num]
-        return func(n-1)
-obj=Solution()
-res=obj.minCost([2,3,1,2])
+        prev1=0
+        prev2=0
+        for i in range(1,len(height)):
+            one=prev1+abs(height[i]-height[i-1])
+            two=float("inf")
+            if i>1:
+                two=prev2+abs(height[i]-height[i-2])
+            curr=min(one,two)
+            prev2=prev1
+            prev1=curr
+        return prev1
+obj = Solution()
+res=obj.minCost([20, 30, 40, 20])
 print(res)

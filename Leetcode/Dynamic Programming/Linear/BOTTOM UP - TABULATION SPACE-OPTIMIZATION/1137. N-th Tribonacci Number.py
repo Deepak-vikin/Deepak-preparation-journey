@@ -32,4 +32,4 @@ class Solution:
         return prev3
 obj=Solution()
 res=obj.tribonacci(5)
-print(res)
+print(res);

@@ -11,29 +11,20 @@ Input: nums = [1,3,5,6], target = 5
 Output: 2
 """
 class Solution:
-    def searchInsert(self, nums: List[int], target: int) -> int:
-        low=0
-        high=len(nums)-1
-        f=0
-        while(low<=high):
-            mid=(low+high)//2
-            if nums[mid]==target:
-                f=1
-                return mid
-            elif target < nums[mid]:
-                high=mid-1
-            elif target>nums[mid]:
-                low=mid+1
-        if f==0:
-            pos=0
-            for i in range(len(nums)):
-                if nums[i] > target:
-                    pos=i
-                    break
-            else:
-                pos=len(nums)
-            nums.insert(pos-1,target)
-            return pos
+    def searchInsert(self, nums: list[int], target: int) -> int:
+        def binary_search(target):
+            left=0
+            right=len(nums)-1
+            while left<=right:
+                mid=(left+right)//2
+                if nums[mid]==target:
+                    return mid
+                elif target<nums[mid]:
+                    right=mid-1
+                else:
+                    left=mid+1
+            return left
+        return binary_search(target)
 obj=Solution()
 nums=[1,3,5,6]
 target=5
